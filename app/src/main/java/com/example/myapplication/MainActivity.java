@@ -59,9 +59,6 @@ public class MainActivity extends AppCompatActivity {
     }
     public void on_button_click(View view) {
         TextView tv = (TextView) this.findViewById(R.id.myTextView);
-
-
-
         tv.setText(Integer.toString(roll_the_dice()));
         EditText guesser = (EditText) findViewById(R.id.NumberGuesser);
         String User_Guess = guesser.getText().toString();
@@ -120,9 +117,3 @@ public class MainActivity extends AppCompatActivity {
     }
 
 }
-
-
-
-
-
-
